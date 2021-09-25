@@ -69,8 +69,6 @@ def procesarNombre():
 def leerSesiones():
     return session
 
-app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
-
 # start the server with the 'run()' method
 if __name__ == '__main__':
     if sys.platform == 'darwin':  # different port if running on MacOsX
